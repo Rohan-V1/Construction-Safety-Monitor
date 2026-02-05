@@ -1,0 +1,90 @@
+####################################
+# OS & Editor files
+####################################
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+####################################
+# Node.js
+####################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+####################################
+# React / Vite
+####################################
+dist/
+build/
+.cache/
+.vite/
+
+####################################
+# Python
+####################################
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+
+####################################
+# Python Virtual Environment
+####################################
+venv/
+.env/
+.env.local
+
+####################################
+# Jupyter
+####################################
+.ipynb_checkpoints/
+
+####################################
+# YOLO / AI artifacts
+####################################
+runs/
+*.pt
+*.onnx
+*.engine
+
+# If you WANT to keep best.pt tracked, comment the above *.pt line
+# and instead ignore only training artifacts:
+# runs/
+
+####################################
+# Dataset (usually large, optional)
+####################################
+dataset/images/
+dataset/labels/
+
+####################################
+# Uploads (runtime files)
+####################################
+backend/uploads/
+uploads/
+
+####################################
+# Logs
+####################################
+logs/
+*.log
+
+####################################
+# Temporary files
+####################################
+tmp/
+temp/
+
+####################################
+# Environment / Secrets
+####################################
+.env
+.env.*

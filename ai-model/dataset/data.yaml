@@ -1,0 +1,10 @@
+path: dataset
+
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: hardhat
+  1: mask
+  2: safety_vest

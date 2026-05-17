@@ -55,9 +55,6 @@ runs/
 *.onnx
 *.engine
 
-# If you WANT to keep best.pt tracked, comment the above *.pt line
-# and instead ignore only training artifacts:
-# runs/
 
 ####################################
 # Dataset (usually large, optional)
